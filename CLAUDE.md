@@ -34,7 +34,7 @@ Hosted on GitHub Pages; `CNAME` points the site at mubionext.com.
 
 - Never invent content: no made-up news, jobs, events, emails, phone numbers, statistics, or course numbers. Use only information from the owner or verifiable sources, and link sources for news.
 - News: include only 2026 stories. Write summaries in your own words (no copied paragraphs) and add a `source` link.
-- Dr. Susie Dai's only website link is https://dai-lab.com (and its pages). Yang Group link: https://sites.google.com/view/yang-group-at-ndsu-2/home.
+- Dr. Susie Dai's only website link is https://dai-lab.com (and its pages). Yang Group link: https://sites.google.com/view/yang-group-at-ndsu-2/home?pli=1&authuser=0.
 - Courses follow the MU Academic Catalog (`BIOL_EN` prefix); new courses not yet in the catalog use the owner's numbers (for example `BION 4750 / 7750`) with `status:"new"`. Show credits as "(3 credits)".
 - The four emphasis areas are equal (no featured area): Bioenergy & bioprocessing; Food engineering; Water & environment; Biotechnology & biochemical engineering.
 - National organizations order: SBE, ASABE, IBE, then others. Do not list BMES.
