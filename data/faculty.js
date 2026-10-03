@@ -54,7 +54,7 @@ const faculty = [
    focus:["Biohybrid materials for biocatalysis, sensing, and delivery","Biomolecular nanoconfinement and EPR biophysics","Sustainable separations and resource recovery"],
    education:["Postdoc, University of California, Los Angeles","PhD, University of Pittsburgh","BE, University of Science and Technology of China"],
    email:"zhongyu.yang@missouri.edu",phone:"573-882-7684",office:"W2029 Lafferre Hall",
-   links:[["Mizzou profile",PROF+"zhongyu-yang/"],["Yang Group","https://sites.google.com/view/yang-group-at-ndsu-2/home?pli=1&authuser=0"],["Google Scholar","https://scholar.google.com/citations?user=C74QDdAAAAAJ"]]},
+   links:[["Yang Group","https://sites.google.com/view/yang-group-at-ndsu-2/home?pli=1&authuser=0"],["Mizzou profile",PROF+"zhongyu-yang/"],["Google Scholar","https://scholar.google.com/citations?user=C74QDdAAAAAJ"]]},
   {slug:"wan",name:"Caixia \u201cEllen\u201d Wan",title:"Associate Professor",areas:["Bioprocessing","Biofuels"],
    short:"Develops biochemical processes that convert biomass into biofuels and other valuable bioproducts.",
    intro:["Caixia \u201cEllen\u201d Wan is an associate professor of chemical and biomedical engineering who develops technologies for converting biomass into value-added products.",
