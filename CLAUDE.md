@@ -24,7 +24,7 @@ Hosted on GitHub Pages; `CNAME` points the site at mubionext.com.
 ## How to make changes
 
 - Content updates (news, events, announcements, courses, faculty, employers, organizations): edit only the matching `data/*.js` file. Copy an existing entry's format exactly.
-- Dates are `YYYY-MM-DD`. Faculty slugs: `aloysius`, `dai`, `krishnaswamy`, `somavat`, `wan`, `yang`.
+- Dates are `YYYY-MM-DD`. Faculty slugs: `aloysius`, `chen`, `dai`, `krishnaswamy`, `somavat`, `wan`, `yang`.
 - Design, page text, menu, or layout changes: edit `index.html`.
 - After editing a data file, check its syntax: `node -e "require('vm').runInNewContext(require('fs').readFileSync('data/news.js','utf8'))"`.
 - Preview with the Live Server extension (Go Live) or by opening `index.html` in a browser.

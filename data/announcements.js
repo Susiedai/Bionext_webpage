@@ -8,5 +8,5 @@
 
 const announcements = [
   {text:"Spring 2027 registration begins October 7. Talk with your advisor about your spring schedule before you register.", until:"2026-11-30"},
-  {text:"Get together at the Let Us Chat Pizza Party: Tuesday, October 13, at 6 pm in Lafferre Hall, Room W2012E.", until:"2026-10-13"}
+  {text:"Let Us Chat Pizza Party: date TBA, 6 pm in Lafferre Hall, Room W2012E. Watch for a time poll to help pick the date!"}
 ];

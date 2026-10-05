@@ -5,10 +5,13 @@
    {date:"2026-10-01",faculty:"wan",title:"Headline",
     body:"Two or three sentences in your own words.",
     source:["Source name","https://link-to-the-original-story"]},
-   - faculty = the faculty slug: aloysius, dai, krishnaswamy, somavat, wan, yang
+   - faculty = the faculty slug: aloysius, chen, dai, krishnaswamy, somavat, wan, yang
    ================================================================ */
 
 const news = [
+  {date:"2025-11-18",faculty:"chen",title:"CURB spotlight: Kainan Chen brings electrochemistry to biomanufacturing",
+   body:"The NSF CURB Engineering Research Center profiled Chen, who uses electrochemical techniques to speed up the biomanufacturing of new materials and chemicals. He is first author of a Joule paper on making biodiesel from CO2 by designing the microbes and the electrocatalysis together, and of a One Earth review on electrobiofuels. He also contributed to a life cycle assessment of producing bioplastics from CO2. Chen credits CURB's interdisciplinary environment with shaping his research and supporting his goal of leading his own lab.",
+   source:["CURB Engineering Research Center","https://curb.wustl.edu/convergent-research/cr-spotlight/kainan-chen-2/"]},
   {date:"2026-09-26",faculty:"krishnaswamy",title:"Saturday Morning Science: Let's FEAST",
    body:"Krishnaswamy gave a public Saturday Morning Science talk in Columbia on how science and engineering can give new life to overlooked foods and food byproducts. Drawing on her FEAST Lab's work around the world, she showed how food loss can become valuable ingredients and how everyday foods can deliver essential vitamins and minerals to fight hidden hunger and malnutrition.",
    source:["Columbia Convention and Visitors Bureau","https://www.visitcolumbiamo.com/event/saturday-morning-science-lets-feast/"]},

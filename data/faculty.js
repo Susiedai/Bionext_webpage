@@ -72,5 +72,14 @@ const faculty = [
    focus:["Corn processing","Preparation and stability of natural food colors","Induction heating and process simulation"],
    education:["PhD in Agricultural and Biological Engineering, University of Illinois Urbana-Champaign","MS in Information and Communications Engineering, Technische Hochschule Mittelhessen","BE in Electronics and Communication Engineering, Maharshi Dayanand University"],
    email:"psbvb@missouri.edu",phone:"573-882-4533",office:"236 Agricultural Engineering Building",
-   links:[["Mizzou profile",PROF+"pavel-somavat/"],["Google Scholar","https://scholar.google.com/citations?user=AZSjzGwAAAAJ"]]}
+   links:[["Mizzou profile",PROF+"pavel-somavat/"],["Google Scholar","https://scholar.google.com/citations?user=AZSjzGwAAAAJ"]]},
+  {slug:"chen",name:"Kainan Chen",title:"Assistant Research Professor",areas:["Electrochemistry","Synthetic biology"],
+   short:"Uses electricity to drive microbes and enzymes, making chemicals and fuels more sustainably from CO2 and waste.",
+   intro:["Kainan Chen is an assistant research professor of chemical and biomedical engineering whose work sits where electrochemistry meets synthetic biology. A single, ambitious question guides his research: can electricity power biology to make chemicals and fuels in a more sustainable way?",
+          "To answer it, he builds bio-electrochemical systems that link electrocatalysis with microbes and enzymes, applying them to carbon conversion, green manufacturing, waste treatment, and resource recovery.",
+          "He recently led a study in Joule (2025) that turned CO₂ into biodiesel by pairing electrocatalysis with engineered microbes, and he is first author of a One Earth (2025) review of the emerging field of electrobiofuels. He studied at Xiamen University and earned his PhD at Texas A&M University."],
+   focus:["Bio-electrochemical systems","Carbon conversion and green manufacturing","Waste treatment and resource recovery"],
+   education:["PhD, Texas A&M University","Xiamen University"],
+   email:"kcbxr@missouri.edu",phone:"573-882-0093",office:"Bond Life Sciences Center",
+   links:[["Google Scholar","https://scholar.google.com/citations?user=9UU_z0IAAAAJ"]]}
 ];

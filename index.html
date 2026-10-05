@@ -365,9 +365,9 @@ const activeAnnouncements = () => announcements.filter(a=>!a.until||a.until>=tod
 const upcoming = () => events.filter(e=>e.date>=todayISO).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
 function eventList(list){
   if(!list.length) return `<p class="muted">No upcoming events right now. Check back soon.</p>`;
-  return `<ul class="events">${list.map(e=>{const p=pd(e.date);return `<li>
-    <div class="date"><span class="m">${MONTHS[p.m-1]}</span><span class="d">${p.d}</span></div>
-    <div><h3>${esc(e.title)}</h3>${e.speaker?`<div><b>${esc(e.speaker)}</b></div>`:""}<div class="muted">${esc(fmt(e.date))}, ${esc(e.time)}${e.place?`, ${esc(e.place)}`:""}</div></div>
+  return `<ul class="events">${list.map(e=>{const tba=e.date==="TBA",p=tba?null:pd(e.date);return `<li>
+    <div class="date">${tba?`<span class="m">Date</span><span class="d" style="font-size:1.4rem">TBA</span>`:`<span class="m">${MONTHS[p.m-1]}</span><span class="d">${p.d}</span>`}</div>
+    <div><h3>${esc(e.title)}</h3>${e.speaker?`<div><b>${esc(e.speaker)}</b></div>`:""}<div class="muted">${tba?"Date TBA":esc(fmt(e.date))}, ${esc(e.time)}${e.place?`, ${esc(e.place)}`:""}</div></div>
     ${typeTag(e.type)}</li>`}).join("")}</ul>`;
 }
 function facultyCards(list){
@@ -497,7 +497,7 @@ const views = {
       <h2>Emphasis areas</h2>
       <p>Our research and technical electives are organized around four emphasis areas. Bioenergy and bioprocessing, food engineering, and water and environment together address the food, water, and energy nexus. Biotechnology and biochemical engineering spans synthetic biology, enzyme and biomolecular engineering, and biocatalysis.</p>
       <div class="emph-grid">
-        <div class="emph"><h3>Bioenergy &amp; bioprocessing</h3><p>Biofuels, biorefineries, fermentation, and converting biomass and waste into energy and bioproducts.</p><p class="emph-fac">Faculty: <a href="#/faculty/wan">Caixia Wan</a>, <a href="#/faculty/dai">Susie Dai</a></p></div>
+        <div class="emph"><h3>Bioenergy &amp; bioprocessing</h3><p>Biofuels, biorefineries, fermentation, and converting biomass and waste into energy and bioproducts.</p><p class="emph-fac">Faculty: <a href="#/faculty/wan">Caixia Wan</a>, <a href="#/faculty/dai">Susie Dai</a>, <a href="#/faculty/chen">Kainan Chen</a></p></div>
         <div class="emph"><h3>Food engineering</h3><p>Food process engineering, fortification, natural food ingredients, and food safety.</p><p class="emph-fac">Faculty: <a href="#/faculty/krishnaswamy">Kiruba Krishnaswamy</a>, <a href="#/faculty/somavat">Pavel Somavat</a></p></div>
         <div class="emph"><h3>Water &amp; environment</h3><p>Water resources, hydrology, and ecological engineering.</p><p class="emph-fac">Faculty: <a href="#/faculty/aloysius">Noel Aloysius</a></p></div>
         <div class="emph"><h3>Biotechnology &amp; biochemical engineering</h3><p>Synthetic biology, enzyme and biomolecular engineering, biocatalysis, and biosensing.</p><p class="emph-fac">Faculty: <a href="#/faculty/yang">Zhongyu Yang</a>, <a href="#/faculty/dai">Susie Dai</a></p></div>
